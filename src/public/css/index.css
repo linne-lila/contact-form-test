@@ -1,0 +1,18 @@
+.main{
+    margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.content{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form__group-title{
+    width: 150px;
+}
+
+.form__group{
+    display: flex;
+}

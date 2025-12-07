@@ -18,13 +18,14 @@
         </div>
     </header>
 
-    <main>
+    <main class="main">
         <div class="content">
             <div class="title">
                 <h2>Contact</h2>
             </div>
 
-            <form class="form">
+            <form class="form" action="/confirm" method="post">
+                @csrf
                 <div class="form__group">
                     <div class="form__group-title">
                         <span class="form__label">お名前</span>
@@ -190,6 +191,10 @@
                             <!-- 後で記載 -->
                         </div>
                     </div>
+                </div>
+
+                <div >
+                    <button type=submit>確認画面</button>
                 </div>
 
             </div>
