@@ -95,8 +95,7 @@
 
                     <div class="form__group-content">
                         <div class="form__input-tel">
-                            <input type="tel" name="tel1" placeholder="080">
-                            <p>-</p>
+                            <input type="tel" name="tel1" placeholder="080">-
                         </div>
 
                         <div class="form__error">
@@ -104,8 +103,7 @@
                         </div>
 
                         <div class="form__input-tel">
-                            <input type="tel" name="tel2" placeholder="1234">
-                            <p>-</p>
+                            <input type="tel" name="tel2" placeholder="1234">-
                         </div>
 
                         <div class="form__error">
@@ -184,7 +182,7 @@
 
                     <div class="form__group-content">
                         <div class="form__input-content">
-                            <textarea name="detail" cols="50" rows="6">お問い合わせ内容をご記載ください</textarea>
+                            <textarea name="detail" cols="70" rows="6" placeholder=お問い合わせ内容をご記載ください></textarea>
                         </div>
 
                         <div class="form__error">
@@ -193,8 +191,8 @@
                     </div>
                 </div>
 
-                <div >
-                    <button type=submit>確認画面</button>
+                <div class="form__submit">
+                    <button class="form__submit-button" type=submit>確認画面</button>
                 </div>
 
             </div>
