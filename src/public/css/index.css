@@ -1,18 +1,94 @@
+.header{
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.header__inner {
+    width: 50%;
+    margin: 15px auto;
+
+    text-align: center;
+
+}
+
+.header__logo {
+    font-size: 24px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    color: rgb(142, 109, 109);
+}
+
+
 .main{
     margin: 0 auto;
 
     background-color: #fff;
+    color: rgb(142, 109, 109);
+}
+
+.title{
+    text-align: center;
 }
 
 .content{
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .form__group-title{
-    width: 150px;
+    width: 200px;
 }
 
 .form__group{
     display: flex;
+
+    margin: 20px;
+}
+
+.form__label-item{
+    color: red;
+}
+
+.form__input-firstname{
+    margin-right: 20px;
+}
+
+.form__input-tel{
+    display: flex;
+}
+
+.form__submit{
+    text-align: center;
+}
+
+.form__submit-button{
+    background-color: rgb(142, 109, 109);
+    color: white;
+
+    border: none;
+
+    margin-bottom: 20px;
+    padding: 5px 20px;
+}
+
+select{
+    background-color: rgb(222, 222, 222);
+    border: none;
+    
+    padding: 10px 40px;
+}
+
+textarea{
+    background-color: rgb(222, 222, 222);
+    border: none;
+    
+    padding: 10px 10px;
+}
+
+input{
+    background-color: rgb(222, 222, 222);
+    border: none;
+
+    padding: 10px 40px;
 }
