@@ -40,6 +40,7 @@
     width: 200px;
 }
 
+
 .form__group{
     display: flex;
 
@@ -54,10 +55,6 @@
     margin-right: 20px;
 }
 
-.form__input-tel{
-    display: flex;
-}
-
 .form__submit{
     text-align: center;
 }
@@ -70,6 +67,19 @@
 
     margin-bottom: 20px;
     padding: 5px 20px;
+}
+
+.form__input-tel{
+    display: flex;
+
+    margin-left: 55px;
+
+}
+
+.form__input-tel1,
+.form__input-tel2,
+.form__input-tel3 {
+    width: 25%;
 }
 
 select{
