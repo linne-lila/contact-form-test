@@ -18,14 +18,15 @@
         </div>
     </header>
 
-    <main>
+    <main class='main'>
         <div class="confirm__content">
             <div class="confirm__title">
                 <h2>Confirm</h2>
             </div>
-            <form class="form">
+            <form class="form" action="/store" method="post">
+                @csrf
                 <div class="confirm-table">
-                    <table class="confirm-table__inner">
+                    <table class="confirm-table__inner" style="margin-left:auto; margin-right:auto;">
                         <tr class="confirm-table__row">
                             <th class="confirm-table__header">お名前</th>
                             <td class="confirm-table__text">
@@ -89,15 +90,11 @@
 
                 <div class="form__button">
                     <button class="form__button-submit" type="submit">送信</button>
-                </div>
 
-                <div class="form__revise">
                     <a class="form__revise-button" href="javascript:history.back();">
                         修正
                     </a>
                 </div>
-
-
             </form>
         </div>
     </main>

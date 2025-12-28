@@ -1,0 +1,75 @@
+.header {
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.header__inner {
+    width: 50%;
+    margin: 15px auto;
+
+    text-align: center;
+
+}
+
+.header__logo {
+    font-size: 24px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    color: rgb(142, 109, 109);
+}
+
+
+.confirm__title {
+    text-align: center;
+
+    margin: 0 auto;
+    
+    background-color: #fff;
+    color: rgb(142, 109, 109);
+}
+
+.confirm-table__row{
+    margin: 0 20px;
+}
+
+.confirm-table__header{
+    background-color: rgb(142, 109, 109);
+    color: white;
+
+    width: 250px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(182, 182, 182);
+}
+
+.confirm-table__text{
+    border: 1px solid rgb(182, 182, 182);
+    
+}
+
+.form__button{
+    text-align: center;
+}
+
+.form__button-submit{
+    background-color: rgb(142, 109, 109);
+    color: white;
+
+    margin: 20px auto;
+    padding: 5px 30px;
+
+
+    border: none;
+    display: inline-block;
+}
+
+.form__revise-button{
+    color: rgb(142, 109, 109);
+    margin-left: 30px;
+}
+
+input{
+    border: none;
+
+    color: rgb(142, 109, 109);
+}

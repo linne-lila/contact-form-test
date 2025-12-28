@@ -38,7 +38,9 @@
                         </div>
 
                         <div class="form__error">
-                            <!-- 後で記載 -->
+                            @error('first_name')
+                                {{$errors->first('first_name')}}
+                            @enderror
                         </div>
                     </div>
 
@@ -48,7 +50,9 @@
                         </div>
 
                         <div class="form__error">
-                            <!-- 後で記載 -->
+                            @error('last_name')
+                                {{$errors->first('last_name')}}
+                            @enderror
                         </div>
                     </div>
                 </div>
@@ -66,7 +70,9 @@
                     </div>
 
                     <div class="form__error">
-                            <!-- 後で記載 -->
+                        @error('gender')
+                            {{$errors->first('gender')}}
+                        @enderror
                     </div>
                 </div>
 
@@ -82,7 +88,9 @@
                         </div>
 
                         <div class="form__error">
-                            <!-- 後で記載 -->
+                            @error('email')
+                                {{$errors->first('email')}}
+                            @enderror
                         </div>
                     </div>
                 </div>
@@ -93,32 +101,63 @@
                         <span class="form__label-item">※</span>
                     </div>
 
+                   
                     <div class="form__group-content">
                         <div class="form__input-tel">
-                            <input type="tel" name="tel1" placeholder="080">-
+                            <input class="form__input-tel1" type="tel" name="tel1" placeholder="080">-
+                            <input class="form__input-tel2" type="tel" name="tel2" placeholder="1234">-
+                            <input class="form__input-tel3" type="tel" name="tel3" placeholder="5678">
                         </div>
 
                         <div class="form__error">
-                            <!-- 後で記載 -->
-                        </div>
+                            @error('tel1')
+                                {{$errors->first('tel1')}}
+                            @enderror
 
-                        <div class="form__input-tel">
-                            <input type="tel" name="tel2" placeholder="1234">-
-                        </div>
+                            @error('tel2')
+                                {{$errors->first('tel2')}}
+                            @enderror
 
-                        <div class="form__error">
-                            <!-- 後で記載 -->
-                        </div>
-
-                        <div class="form__input-tel">
-                            <input type="tel" name="tel3" placeholder="5678">
-                        </div>
-
-                        <div class="form__error">
-                            <!-- 後で記載 -->
+                            @error('tel3')
+                                {{$errors->first('tel3')}}
+                            @enderror
                         </div>
                     </div>
                 </div>
+
+
+                    <!-- <div class="form__group-content">
+                        <div class="form__input-tel">
+                            <input class="form__input-tel-child" type="tel" name="tel1" placeholder="080">-
+                        </div>
+
+                        <div class="form__error">
+                            @error('tel1')
+                                {{$errors->first('tel1')}}
+                            @enderror
+                        </div>
+
+                        <div class="form__input-tel">
+                            <input class="form__input-tel-child" type="tel" name="tel2" placeholder="1234">-
+                        </div>
+
+                        <div class="form__error">
+                            @error('tel2')
+                                {{$errors->first('tel2')}}
+                            @enderror
+                        </div>
+
+                        <div class="form__input-tel">
+                            <input class="form__input-tel-child" type="tel" name="tel3" placeholder="5678">
+                        </div>
+
+                        <div class="form__error">
+                            @error('tel3')
+                                {{$errors->first('tel3')}}
+                            @enderror
+                        </div>
+                    </div>
+                </div> -->
 
                 <div class="form__group">
                     <div class="form__group-title">
@@ -132,7 +171,9 @@
                         </div>
 
                         <div class="form__error">
-                            <!-- 後で記載 -->
+                            @error('address')
+                                {{$errors->first('address')}}
+                            @enderror
                         </div>
                     </div>
                 </div>
@@ -167,10 +208,10 @@
                         </div>
 
                         <div class="form__error">
-                            <!-- 後で記載 -->
+                            @error('class')
+                                {{$errors->first('class')}}
+                            @enderror
                         </div>
-
-
                     </div>
                 </div>
 
@@ -186,7 +227,9 @@
                         </div>
 
                         <div class="form__error">
-                            <!-- 後で記載 -->
+                            @error('detail')
+                                {{$errors->first('detail')}}
+                            @enderror
                         </div>
                     </div>
                 </div>
